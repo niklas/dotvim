@@ -37,3 +37,9 @@
 [submodule "vendor/snipmate"]
 	path = vendor/snipmate
 	url = git://github.com/msanders/snipmate.vim.git
+[submodule "vendor/ack"]
+	path = vendor/ack
+	url = git://github.com/mileszs/ack.vim.git
+[submodule "vendor/vim-ruby"]
+	path = vendor/vim-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
