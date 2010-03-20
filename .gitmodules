@@ -19,3 +19,6 @@
 [submodule "vendor/vim-ragtag"]
 	path = vendor/vim-ragtag
 	url = git://github.com/tpope/vim-ragtag.git
+[submodule "vendor/vim-liquid"]
+	path = vendor/vim-liquid
+	url = git://github.com/tpope/vim-liquid.git
