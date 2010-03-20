@@ -31,3 +31,6 @@
 [submodule "vendor/vim-endwise"]
 	path = vendor/vim-endwise
 	url = git://github.com/tpope/vim-endwise.git
+[submodule "vendor/vim-repeat"]
+	path = vendor/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
