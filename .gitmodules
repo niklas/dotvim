@@ -16,3 +16,6 @@
 [submodule "vendor/vim-rails"]
 	path = vendor/vim-rails
 	url = git://github.com/tpope/vim-rails.git
+[submodule "vendor/vim-ragtag"]
+	path = vendor/vim-ragtag
+	url = git://github.com/tpope/vim-ragtag.git
