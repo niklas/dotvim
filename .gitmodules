@@ -25,3 +25,6 @@
 [submodule "vendor/vim-space"]
 	path = vendor/vim-space
 	url = git://github.com/tpope/vim-space.git
+[submodule "vendor/vim-pathogen"]
+	path = vendor/vim-pathogen
+	url = git://github.com/tpope/vim-pathogen.git

@@ -2,7 +2,8 @@
 " there you can put complete vim dirs containing syntax/, ident/ etc.
 " this may be slowing down startup, 
 " but this way we can add vim plugins as submodules
-set runtimepath+=$HOME/.vim/vendor/*
+source $HOME/.vim/vendor/vim-pathogen/autoload/pathogen.vim
+call pathogen#runtime_append_all_bundles('vendor')
 
 " source $HOME/.vim/rc/*.vim
 " must source manually, because these are lots of files
