@@ -1,3 +1,8 @@
+" toggle filetype to use ftdetect directories in vendor/
+" see: http://www.mail-archive.com/vim_dev@googlegroups.com/msg05224.html
+filetype off
+filetype on
+
 filetype plugin on
 filetype indent on
 if &t_Co > 1
