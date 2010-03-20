@@ -1,0 +1,17 @@
+" remove the .sample and customize
+colorscheme slate
+set guifont=Inconsolata\ 12
+
+
+set expandtab           " tabs --> blanks
+let perl_fold=1
+let g:xml_syntax_folding = 1
+
+" jslint
+" Run JSLint on the current file in simple mode when <F4> is pressed.
+map <F4> :JSLintLight<CR>
+
+" Run JSLint on the current file with quickfix when <F5> is pressed.
+map <F5> :JSLint<CR>
+
+
