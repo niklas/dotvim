@@ -55,3 +55,6 @@
 [submodule "vendor/vim-sshauthkeys"]
 	path = vendor/vim-sshauthkeys
 	url = git://github.com/xevz/vim-sshauthkeys.git
+[submodule "vendor/vim-scratch"]
+	path = vendor/vim-scratch
+	url = git://github.com/duff/vim-scratch.git
