@@ -58,3 +58,6 @@
 [submodule "vendor/vim-scratch"]
 	path = vendor/vim-scratch
 	url = git://github.com/duff/vim-scratch.git
+[submodule "vendor/vim-bufonly"]
+	path = vendor/vim-bufonly
+	url = git://github.com/duff/vim-bufonly.git
