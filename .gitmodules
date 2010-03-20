@@ -13,3 +13,6 @@
 [submodule "extras/gist-287147"]
 	path = extras/gist-287147
 	url = git://gist.github.com/287147.git
+[submodule "vendor/vim-rails"]
+	path = vendor/vim-rails
+	url = git://github.com/tpope/vim-rails.git
