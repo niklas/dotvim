@@ -43,3 +43,6 @@
 [submodule "vendor/vim-ruby"]
 	path = vendor/vim-ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "vendor/latex-suite"]
+	path = vendor/latex-suite
+	url = git://github.com/mineiro/vim-latex.git
