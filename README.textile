@@ -1,0 +1,41 @@
+h2. Collection of Vim Plugins
+
+I primary use Vim for web development with ruby and rails. So the following
+plugins are included:
+
+* rails.vim
+* cucumber
+* haml
+* jslint
+* matchit
+* snipmate
+* serveral git related ones
+* latex
+* ... and many more, look at +vendor/+
+
+h2. Installation
+
+@code@
+   mv ~/.vim ~/.vim-b4-niklas
+   mv ~/.vimrc ~/.vimrc-b4-niklas
+
+   git clone git://github.com/niklas/dotvim.git ~/.vim
+   ln -s ~/.vim/vimrc ~/.vimrc
+   vim ~/.vim/rc/local.vim # put your stuff here
+
+h2. Modularity
+
+The vimrc is split up in serveral files to accomplish a kind of organization ..
+we will see where this will lead us.
+
+You can modify +rc/local.vim+ to your needs. It will be sourced as last file
+from the +rc/+ dir and will never be overwritten by the repository.
+
+
+h2. Collaboration
+
+Please fork and send me a pull request if you have something awesome :)
+
+h2. Thanks
+
+Thanks go to the Vim developers and plugin hackers, especially "tpope":http://github.com/tpope/ .
