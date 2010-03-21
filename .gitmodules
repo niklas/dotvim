@@ -61,3 +61,6 @@
 [submodule "vendor/vim-bufonly"]
 	path = vendor/vim-bufonly
 	url = git://github.com/duff/vim-bufonly.git
+[submodule "vendor/more_snippets/snippets"]
+	path = vendor/more_snippets/snippets
+	url = git://github.com/scrooloose/snipmate-snippets.git
