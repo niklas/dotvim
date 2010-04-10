@@ -64,3 +64,6 @@
 [submodule "vendor/more_snippets/snippets"]
 	path = vendor/more_snippets/snippets
 	url = git://github.com/scrooloose/snipmate-snippets.git
+[submodule "vendor/Tabular"]
+	path = vendor/Tabular
+	url = git://github.com/godlygeek/tabular.git
