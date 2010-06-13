@@ -2,3 +2,4 @@
 *.swo
 rc/local.vim
 .netrwhist
+tmp
