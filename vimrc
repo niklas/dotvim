@@ -13,5 +13,6 @@ source $HOME/.vim/rc/clever_tab.vim
 source $HOME/.vim/rc/last_position.vim
 source $HOME/.vim/rc/tabs.vim
 source $HOME/.vim/rc/thinkpad.vim
+source $HOME/.vim/rc/edit.vim
 " use this file to set your own stuff
 source $HOME/.vim/rc/local.vim
