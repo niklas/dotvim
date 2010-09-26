@@ -34,9 +34,6 @@
 [submodule "vendor/vim-repeat"]
 	path = vendor/vim-repeat
 	url = git://github.com/tpope/vim-repeat.git
-[submodule "vendor/snipmate"]
-	path = vendor/snipmate
-	url = git://github.com/msanders/snipmate.vim.git
 [submodule "vendor/ack"]
 	path = vendor/ack
 	url = git://github.com/mileszs/ack.vim.git
@@ -61,9 +58,6 @@
 [submodule "vendor/vim-bufonly"]
 	path = vendor/vim-bufonly
 	url = git://github.com/duff/vim-bufonly.git
-[submodule "vendor/more_snippets/snippets"]
-	path = vendor/more_snippets/snippets
-	url = git://github.com/scrooloose/snipmate-snippets.git
 [submodule "vendor/Tabular"]
 	path = vendor/Tabular
 	url = git://github.com/godlygeek/tabular.git
