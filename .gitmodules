@@ -67,3 +67,6 @@
 [submodule "vendor/Tabular"]
 	path = vendor/Tabular
 	url = git://github.com/godlygeek/tabular.git
+[submodule "vendor/vim-coffee-script"]
+	path = vendor/vim-coffee-script
+	url = git://github.com/kchmck/vim-coffee-script.git
