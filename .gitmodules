@@ -64,3 +64,6 @@
 [submodule "vendor/vim-coffee-script"]
 	path = vendor/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule "vendor/vim-javascript"]
+	path = vendor/vim-javascript
+	url = git://github.com/pangloss/vim-javascript.git
