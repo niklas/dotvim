@@ -46,9 +46,6 @@
 [submodule "vendor/jslint"]
 	path = vendor/jslint
 	url = git://github.com/hallettj/jslint.vim.git
-[submodule "vendor/vim-autoclose"]
-	path = vendor/vim-autoclose
-	url = git://github.com/Townk/vim-autoclose.git
 [submodule "vendor/vim-sshauthkeys"]
 	path = vendor/vim-sshauthkeys
 	url = git://github.com/xevz/vim-sshauthkeys.git
