@@ -24,7 +24,7 @@ set switchbuf=useopen,usetab
 "  a few general purpose mappings from vendor/vim-ragtag
 let g:ragtag_global_maps = 1
 
-
+nnoremap <F8> :GundoToggle<CR>
 
 
 
