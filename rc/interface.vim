@@ -15,6 +15,8 @@ set foldmethod=syntax
 set foldlevelstart=99   " All folds open by default
 set foldenable
 
+set showtabline=2 " always show tabbar, fixes resizing issues
+
 " use ctrl + mousewheel to change font size
 nnoremap <C-Up> :silent! let &guifont = substitute(&guifont, '\d\+', '\=eval(submatch(0)+1)', '')<CR>
 nnoremap <C-Down> :silent! let &guifont = substitute(&guifont, '\d\+', '\=eval(submatch(0)-1)', '')<CR>
