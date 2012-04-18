@@ -3,3 +3,4 @@
 rc/local.vim
 .netrwhist
 tmp
+backups/
