@@ -20,7 +20,7 @@ command! -nargs=1 RdbCond :call g:RubyDebugger.conditional_breakpoint(<q-args>)
 command! -nargs=1 RdbCatch :call g:RubyDebugger.catch_exception(<q-args>)
 
 if exists("g:ruby_debugger_loaded")
-  "finish
+  finish
 endif
 if v:version < 700 
   echoerr "RubyDebugger: This plugin requires Vim >= 7."
