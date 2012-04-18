@@ -64,3 +64,6 @@
 [submodule "vendor/gundo"]
 	path = vendor/gundo
 	url = git://github.com/sjl/gundo.vim.git
+[submodule "vendor/treetop"]
+	path = vendor/treetop
+	url = git://github.com/nanki/treetop.vim.git
