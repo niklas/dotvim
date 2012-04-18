@@ -30,3 +30,4 @@ nnoremap <F8> :GundoToggle<CR>
 
 
 
+set nu
