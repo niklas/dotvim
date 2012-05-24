@@ -67,3 +67,6 @@
 [submodule "vendor/treetop"]
 	path = vendor/treetop
 	url = git://github.com/nanki/treetop.vim.git
+[submodule "vendor/vim-powerline"]
+	path = vendor/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git

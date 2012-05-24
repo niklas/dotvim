@@ -36,3 +36,4 @@ if has("gui_running")
 
         set showtabline=2 " always show tabbar, fixes resizing issues
 endif
+let g:Powerline_symbols = 'fancy'
