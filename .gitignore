@@ -1,6 +1,8 @@
-*.swp
+*.swn
 *.swo
+*.swp
 rc/local.vim
 .netrwhist
-tmp
 backups/
+tmp/*.*
+!tmp/.gitkeep
