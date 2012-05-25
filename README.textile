@@ -11,9 +11,14 @@ plugins are included:
 * snipmate
 * serveral git related ones
 * latex
+* powerline
+* easymotion
+* ruby debugger (I do not use it yet)
 * ... and many more, look at +vendor/+
 
 h2. Installation
+
+You need a feature-rich version of vim. Installing `vim-gnome` in Ubuntu does the trick.
 
 @code@
    mv ~/.vim ~/.vim-b4-niklas
