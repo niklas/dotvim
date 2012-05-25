@@ -1,6 +1,6 @@
-" remove the .sample and customize
+
 colorscheme slate
-set guifont=Inconsolata\ 12
+set guifont=Inconsolata-dz\ for\ Powerline\ Medium\ 9 
 
 
 set expandtab           " tabs --> blanks
@@ -13,5 +13,17 @@ map <F4> :JSLintLight<CR>
 
 " Run JSLint on the current file with quickfix when <F5> is pressed.
 map <F5> :JSLint<CR>
+let g:rsenseHome = "/home/niklas/src/rsense"
 
+set foldtext=v:folddashes.substitute(getline(v:foldstart),'/\\*\\\|\\*/\\\|{{{\\d\\=','','g')
+
+" disable ruby debugger
+let g:ruby_debugger_loaded = 1
+set wildmenu
+
+autocmd User Rails Rnavcommand cell app/cells -glob=**/* -suffix=_cell.rb
+autocmd User Rails Rnavcommand cell app/widgets -glob=**/* -suffix=_widget.rb
+
+" :help W11 reading in files automatically if only changed on disk
+set autoread
 
