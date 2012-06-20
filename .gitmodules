@@ -73,3 +73,9 @@
 [submodule "vendor/vim-easymotion"]
 	path = vendor/vim-easymotion
 	url = git://github.com/Lokaltog/vim-easymotion.git
+[submodule "vendor/controlp"]
+	path = vendor/controlp
+	url = git://github.com/kien/ctrlp.vim.git
+[submodule "vendor/vim-commentary"]
+	path = vendor/vim-commentary
+	url = git://github.com/tpope/vim-commentary.git
