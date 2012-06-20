@@ -19,11 +19,11 @@ set wildignore=*.o,*.obj,*.bak,*.exe,*.pyc,*.swp
 set backup                   " Enable creation of backup file.
 if has('unix')
   set backupdir=~/.vim/backups " Where backups will go.
-  set directory=~/.vim/tmp//     " Where temporary files will go."
+"  set directory=~/.vim/tmp//     " Where temporary files will go."
 endif
 if has('win32')
   set backupdir=~/vimfiles/backups " Where backups will go.
-  set directory=~/vimfiles/tmp//     " Where temporary files will go."
+"  set directory=~/vimfiles/tmp//     " Where temporary files will go."
 endif
 
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
