@@ -79,3 +79,6 @@
 [submodule "vendor/vim-commentary"]
 	path = vendor/vim-commentary
 	url = git://github.com/tpope/vim-commentary.git
+[submodule "vendor/scss-syntax"]
+	path = vendor/scss-syntax
+	url = git://github.com/cakebaker/scss-syntax.vim.git
