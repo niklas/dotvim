@@ -79,3 +79,9 @@
 [submodule "vendor/scss-syntax"]
 	path = vendor/scss-syntax
 	url = git://github.com/cakebaker/scss-syntax.vim.git
+[submodule "vendor/vim-textobj-rubyblock"]
+	path = vendor/vim-textobj-rubyblock
+	url = git://github.com/nelstrom/vim-textobj-rubyblock.git
+[submodule "vendor/vim-textobj-user"]
+	path = vendor/vim-textobj-user
+	url = git://github.com/kana/vim-textobj-user.git
