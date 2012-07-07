@@ -40,9 +40,6 @@
 [submodule "vendor/latex-suite"]
 	path = vendor/latex-suite
 	url = git://github.com/mineiro/vim-latex.git
-[submodule "vendor/jslint"]
-	path = vendor/jslint
-	url = git://github.com/hallettj/jslint.vim.git
 [submodule "vendor/vim-sshauthkeys"]
 	path = vendor/vim-sshauthkeys
 	url = git://github.com/xevz/vim-sshauthkeys.git
