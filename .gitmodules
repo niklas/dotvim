@@ -88,3 +88,6 @@
 [submodule "vendor/vim-abolish"]
 	path = vendor/vim-abolish
 	url = git://github.com/tpope/vim-abolish.git
+[submodule "tpope/vim-bundler"]
+	path = tpope/vim-bundler
+	url = git://github.com/tpope/vim-bundler.git
