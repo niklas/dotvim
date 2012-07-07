@@ -85,3 +85,6 @@
 [submodule "vendor/vim-textobj-user"]
 	path = vendor/vim-textobj-user
 	url = git://github.com/kana/vim-textobj-user.git
+[submodule "vendor/vim-abolish"]
+	path = vendor/vim-abolish
+	url = git://github.com/tpope/vim-abolish.git
