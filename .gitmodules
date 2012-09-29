@@ -97,3 +97,6 @@
 [submodule "vendor/vim-handlebars"]
 	path = vendor/vim-handlebars
 	url = git://github.com/nono/vim-handlebars.git
+[submodule "vendor/golden-ratio"]
+	path = vendor/golden-ratio
+	url = git://github.com/roman/golden-ratio.git
