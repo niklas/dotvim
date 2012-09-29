@@ -37,3 +37,7 @@ if has("gui_running")
         set showtabline=2 " always show tabbar, fixes resizing issues
 endif
 let g:Powerline_symbols = 'fancy'
+
+" what to show
+set list                  " show line-endings, tabs and trailing spaces
+set lcs=trail:·,tab:»·    " trailing spaces and tabs are shown and eol not
