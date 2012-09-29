@@ -94,3 +94,6 @@
 [submodule "tpope/vim-rvm"]
 	path = tpope/vim-rvm
 	url = git://github.com/tpope/vim-rvm.git
+[submodule "vendor/vim-handlebars"]
+	path = vendor/vim-handlebars
+	url = git://github.com/nono/vim-handlebars.git
