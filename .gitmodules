@@ -100,3 +100,6 @@
 [submodule "vendor/golden-ratio"]
 	path = vendor/golden-ratio
 	url = git://github.com/roman/golden-ratio.git
+[submodule "vendor/nerdtree"]
+	path = vendor/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
