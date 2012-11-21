@@ -12,7 +12,7 @@ set lazyredraw   " Don't repaint when scripts are running
 set showmode     " show INSERT/REPLACE/...
 
 set foldmethod=syntax
-set foldlevelstart=99   " All folds open by default
+set foldlevelstart=5   " All folds open by default
 set foldenable
 
 
