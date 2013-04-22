@@ -5,4 +5,6 @@
 " (maybe your codes differ, find out with xev)
 map <F17> :tabprevious<cr>
 map <F18> :tabnext<cr>
+map <C-F17> :cp<cr>
+map <C-F18> :cn<cr>
 
