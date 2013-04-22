@@ -103,3 +103,9 @@
 [submodule "vendor/nerdtree"]
 	path = vendor/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vendor/VimOrganizer"]
+	path = vendor/VimOrganizer
+	url = git://github.com/hsitz/VimOrganizer.git
+[submodule "vendor/nginx"]
+	path = vendor/nginx
+	url = git://github.com/vim-scripts/nginx.vim.git
