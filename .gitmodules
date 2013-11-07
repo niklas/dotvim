@@ -109,3 +109,6 @@
 [submodule "vendor/nginx"]
 	path = vendor/nginx
 	url = git://github.com/vim-scripts/nginx.vim.git
+[submodule "vendor/boxdraw"]
+	path = vendor/boxdraw
+	url = git://github.com/vim-scripts/boxdraw.git
