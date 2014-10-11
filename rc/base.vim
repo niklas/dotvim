@@ -9,7 +9,7 @@ if &t_Co > 1
   syntax on
 endif
 
-set cindent " C style indentation
+set nocindent " when on, it causes indention on normal text blocks with `gq`
 set grepprg=grep\ -nH\ $*
 set nocompatible        " Use Vim defaults (much better!)
 set backspace=2         " allow backspacing over everything in insert mode
