@@ -112,3 +112,12 @@
 [submodule "vendor/boxdraw"]
 	path = vendor/boxdraw
 	url = git://github.com/vim-scripts/boxdraw.git
+[submodule "vendor/vim-surround"]
+	path = vendor/vim-surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "vendor/vim-emblem"]
+	path = vendor/vim-emblem
+	url = git@github.com:heartsentwined/vim-emblem.git
+[submodule "vendor/vim-elixir"]
+	path = vendor/vim-elixir
+	url = git@github.com:elixir-lang/vim-elixir.git
