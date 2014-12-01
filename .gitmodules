@@ -64,9 +64,6 @@
 [submodule "vendor/treetop"]
 	path = vendor/treetop
 	url = git://github.com/nanki/treetop.vim.git
-[submodule "vendor/vim-powerline"]
-	path = vendor/vim-powerline
-	url = https://github.com/Lokaltog/vim-powerline.git
 [submodule "vendor/vim-easymotion"]
 	path = vendor/vim-easymotion
 	url = git://github.com/Lokaltog/vim-easymotion.git
@@ -121,3 +118,6 @@
 [submodule "vendor/vim-elixir"]
 	path = vendor/vim-elixir
 	url = git@github.com:elixir-lang/vim-elixir.git
+[submodule "vendor/vim-airline"]
+	path = vendor/vim-airline
+	url = git@github.com:bling/vim-airline.git
