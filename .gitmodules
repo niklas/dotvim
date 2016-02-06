@@ -130,3 +130,6 @@
 [submodule "vendor/colorsbox"]
 	path = vendor/colorsbox
 	url = https://github.com/mkarmona/colorsbox.git
+[submodule "vendor/vim-gitgutter"]
+	path = vendor/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
