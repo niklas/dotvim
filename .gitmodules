@@ -121,3 +121,12 @@
 [submodule "vendor/vim-airline"]
 	path = vendor/vim-airline
 	url = git@github.com:bling/vim-airline.git
+[submodule "vendor/vim-go"]
+	path = vendor/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "vendor/oceanic-next"]
+	path = vendor/oceanic-next
+	url = https://github.com/mhartington/oceanic-next.git
+[submodule "vendor/colorsbox"]
+	path = vendor/colorsbox
+	url = https://github.com/mkarmona/colorsbox.git
