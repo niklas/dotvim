@@ -41,3 +41,8 @@ let g:Powerline_symbols = 'fancy'
 " what to show
 set list                  " show line-endings, tabs and trailing spaces
 set lcs=trail:·,tab:»·    " trailing spaces and tabs are shown and eol not
+
+" highlight current row and column
+au WinLeave * set nocursorline nocursorcolumn
+au WinEnter * set cursorline cursorcolumn
+set cursorline cursorcolumn
