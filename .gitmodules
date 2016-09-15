@@ -133,3 +133,6 @@
 [submodule "vendor/vim-gitgutter"]
 	path = vendor/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "vendor/elm.vim"]
+	path = vendor/elm.vim
+	url = https://github.com/lambdatoast/elm.vim.git
