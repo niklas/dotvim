@@ -29,4 +29,4 @@ endif
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 set encoding=utf-8 " Necessary to show unicode glyphs
 
-set shiftwidth=2
+"set shiftwidth=2
