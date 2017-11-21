@@ -1,7 +1,6 @@
 set showfulltag  " Show more information while completing tags
 set showcmd      " show command while typing
 set hlsearch     " great search mode. :nohl for no highlight
-map <F7> :nohl<CR>
 set incsearch
 set ruler        " show the cursor position all the time
 set smartcase    " search case-insensitive
@@ -20,8 +19,6 @@ set switchbuf=useopen,usetab
 
 "  a few general purpose mappings from vendor/vim-ragtag
 let g:ragtag_global_maps = 1
-
-nnoremap <F8> :GundoToggle<CR>
 
 
 

@@ -136,3 +136,6 @@
 [submodule "vendor/elm-vim"]
 	path = vendor/elm-vim
 	url = git@github.com:ElmCast/elm-vim.git
+[submodule "vendor/ale"]
+	path = vendor/ale
+	url = https://github.com/w0rp/ale.git
