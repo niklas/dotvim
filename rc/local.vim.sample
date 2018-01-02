@@ -1,5 +1,5 @@
 
-colorscheme slate
+colorscheme betterslate
 set guifont=Inconsolata-dz\ for\ Powerline\ Medium\ 9 
 
 
@@ -11,8 +11,8 @@ let g:xml_syntax_folding = 1
 " Run JSLint on the current file in simple mode when <F4> is pressed.
 map <F4> :JSLintLight<CR>
 
-" Run JSLint on the current file with quickfix when <F5> is pressed.
-map <F5> :JSLint<CR>
+" Add file to git with F5
+map <F5> :Gwrite<CR>
 let g:rsenseHome = "/home/niklas/src/rsense"
 
 set foldtext=v:folddashes.substitute(getline(v:foldstart),'/\\*\\\|\\*/\\\|{{{\\d\\=','','g')
@@ -21,9 +21,76 @@ set foldtext=v:folddashes.substitute(getline(v:foldstart),'/\\*\\\|\\*/\\\|{{{\\
 let g:ruby_debugger_loaded = 1
 set wildmenu
 
-autocmd User Rails Rnavcommand cell app/cells -glob=**/* -suffix=_cell.rb
-autocmd User Rails Rnavcommand cell app/widgets -glob=**/* -suffix=_widget.rb
-
 " :help W11 reading in files automatically if only changed on disk
 set autoread
 
+" usually, yankring uses <c-p>, but we want to use the ctrlp plugin by its
+" name
+let g:yankring_replace_n_pkey = '<m-p>'
+let g:yankring_replace_n_nkey = '<m-n>'
+map <F2> *:tabnew<CR>:AckFromSearch<CR>
+let g:ctrlp_map = '<c-p>'
+
+" only jump to the buffer if it's opened in the current tab.
+let g:ctrlp_switch_buffer = 1
+
+" open in new tab on ENTER
+"let g:ctrlp_prompt_mappings = {
+"  \ 'AcceptSelection("t")': ['<cr>', '<2-LeftMouse>'],
+"  \ }
+"
+let shiftwidth=2
+let tabspace=2
+
+
+" disable golden ratio as it jumps the scrolled view
+let g:loaded_golden_ratio = 1
+
+let $XIKI_DIR = "/home/niklas/src/xiki/"
+
+
+au! BufRead,BufWrite,BufWritePost,BufNewFile *.org 
+au BufEnter *.org            call org#SetOrgFileType()
+
+command! -range -nargs=0 WIP %s/^\( *\)Scenario/\1@wip\r\1Scenario/g
+
+
+let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files']
+let g:ctrlp_extensions = ['tag', 'buffertag']
+
+autocmd BufNewFile,BufRead *_spec.rb compiler rspec
+autocmd BufNewFile,BufRead *_spec.rb noremap ,m :w\|:make %<cr>\|:copen<cr>
+
+if filereadable(glob(".vimrc.local")) 
+    source .vimrc.local
+endif
+
+
+" http://vimrcfu.com/snippet/161
+" a simple __ before typing in A or Emodel or tag opens the results in a split window
+nnoremap __ :split \|<Space>
+
+" http://vimrcfu.com/snippet/153
+" Use system clipboard for all yanks/deletions/etc inside vi
+set clipboard=unnamedplus
+
+" http://vimrcfu.com/snippet/52
+"Mappings C-J, C-K, C-L, and C-H make life much easier when it comes to navigating splits.
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+set noshowmode
+
+nnoremap <F9> o<ESC>"=strftime("%FT%T%z")<CR>Pa,BAH,0.00,Place,Thing<ESC>
+"iamtheonewhoknockstwice2342
+
+" fix syntax display fubars with F12
+noremap <F12> <Esc>:syntax sync fromstart<CR>
+inoremap <F12> <C-o>:syntax sync fromstart<CR>
+
+" fold coffeescript
+autocmd BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
+" 2-space indentation for coffeescript
+autocmd BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
